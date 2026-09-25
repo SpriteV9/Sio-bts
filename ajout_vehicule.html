@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ajout d'un nouveau véhicule</title>
+</head>
+<body>
+
+<h1>Ajout d'un nouveau véhicule</h1>
+
+<form action="ajout_vehicule.html" method="post">
+<table border="0" width="60%">
+<tr>
+<td><label for="marque">Marque :</label></td>
+<td>
+<select id="marque" name="marque">
+<option value="peugeot">Peugeot</option>
+<option value="mercedes">Mercedes</option>
+<option value="renault">Renault</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="immatriculation">Immatriculation :</label></td>
+<td><input type="text" id="immatriculation" name="immatriculation"></td>
+</tr>
+<tr>
+<td><label for="couleur">Couleur :</label></td>
+<td><input type="text" id="couleur" name="couleur"></td>
+</tr>
+<tr>
+<td><label for="date_immatriculation">Date d'immatriculation :</label></td>
+<td><input type="date" id="date_immatriculation" name="date_immatriculation"></td>
+</tr>
+<tr>
+<td><label for="kilometrage">Kilométrage :</label></td>
+<td><input type="number" id="kilometrage" name="kilometrage"></td>
+</tr>
+<tr>
+<td>État :</td>
+<td>
+Occasion <input type="radio" id="etat_occasion" name="etat" value="occasion"><br>
+Neuf <input type="radio" id="etat_neuf" name="etat" value="neuf">
+</td>
+</tr>
+<tr>
+<td>Carburant :</td>
+<td>
+Hybride <input type="radio" id="carburant_hybride" name="carburant" value="hybride"><br>
+Électrique <input type="radio" id="carburant_electrique" name="carburant" value="electrique"><br>
+Essence <input type="radio" id="carburant_essence" name="carburant" value="essence"><br>
+Diesel <input type="radio" id="carburant_diesel" name="carburant" value="diesel">
+</td>
+</tr>
+<tr>
+<td><label for="boite_vitesses">Boîte de vitesses :</label></td>
+<td><input type="text" id="boite_vitesses" name="boite_vitesses"></td>
+</tr>
+<tr>
+<td><label for="nombre_portes">Nombre de portes :</label></td>
+<td><input type="number" id="nombre_portes" name="nombre_portes"></td>
+</tr>
+<tr>
+<td><label for="numero_serie">Numero de serie :</label></td>
+<td><input type="text" id="numero_serie" name="numero_serie"></td>
+</tr>
+<tr>
+<td><label for="prix_journalier">Tarif journalier :</label></td>
+<td><input type="number" id="prix_journalier" name="prix_journalier"></td>
+</tr>
+<tr>
+<td><label for="assurance">Assurance :</label></td>
+<td><input type="text" id="assurance" name="assurance"></td>
+</tr>
+<tr>
+<td colspan="2">
+<br>
+<button type="submit">Enregistrer</button> <button type="reset">Annuler</button>
+</td>
+</tr>
+</table>
+</form>
+
+<p><a href="index.html">Retour</a></p>
+
+<footer>
+<p>&copy; 2026 Agence Méditerranée - Location de véhicules</p>
+</footer>
+
+</body>
+</html>
