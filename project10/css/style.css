@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e9d8;
+    color: #2b2b2b;
+    line-height: 1.6;
+}
+header {
+    background-color: #0b6e99;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.logo span {
+    color: #e8833a;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #e8833a;
+    text-decoration: underline;
+}
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+h1, h2 {
+    color: #084d6b;
+    margin-bottom: 15px;
+}
+
+.moitie {
+    width: 46%;
+    float: left;
+}
+.large {
+    width: 62%;
+    float: left;
+}
+.etroit {
+    width: 32%;
+    float: right;
+}
+.bloc {
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 2px solid #999;
+    border-radius: 15px;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.bloc-marseille {
+    background-color: #d9eef7;
+    border-color: #0b6e99;
+}
+.bloc-marseille h3 {
+    color: #0b6e99;
+}
+.bloc-nice {
+    background-color: #fde8d4;
+    border-color: #c4631a;
+}
+.bloc-nice h3 {
+    color: #c4631a;
+}
+.bloc-offre {
+    background-color: #e3f3e8;
+    border-color: #1f7a45;
+}
+.bloc-offre h3 {
+    color: #1f7a45;
+}
+.bloc-promo {
+    background-color: #e8833a;
+    border-color: #a8561a;
+    color: white;
+}
+.bloc-promo h3 {
+    color: white;
+}
+.remise {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.bloc img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+.bloc .img-gauche {
+    float: left;
+    width: 45%;
+    margin: 0 18px 10px 0;
+}
+footer {
+    clear: both;
+    background-color: #084d6b;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+}
+footer address {
+    font-style: normal;
+    margin-bottom: 10px;
+}
